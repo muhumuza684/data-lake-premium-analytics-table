@@ -9,7 +9,7 @@ describe("INFORIVAPREM standardization", () => {
 
     test("uses the INFORIVAPREM identity", () => {
         expect(String(pbiviz.visual.name)).toBe("INFORIVAPREM");
-        expect(String(pbiviz.visual.displayName)).toBe("INFORIVAPREM");
+        expect(String(pbiviz.visual.displayName)).toBe("Data Lake Premium Analytics Table");
         expect(renderer).toContain("INFORIVAPREM");
     });
 
